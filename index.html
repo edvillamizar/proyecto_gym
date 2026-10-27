@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="GYM Fitness: entrenamiento funcional, musculación y clases grupales. Consulta planes, horarios y calcula tu IMC." />
+    <title>GYM Fitness</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🏋️</text></svg>" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header" id="inicio">
+      <div class="menu container">
+        <a href="#inicio" class="logo">GYM</a>
+        <input type="checkbox" id="menu" />
+        <label for="menu" aria-label="Abrir menú"
+          ><img src="Images/menu.png" class="menu-icono" alt="Menú"
+        /></label>
+        <nav class="navbar" aria-label="Principal">
+          <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#planes">Planes</a></li>
+            <li><a href="#horarios">Horarios</a></li>
+            <li><a href="#testimonios">Testimonios</a></li>
+            <li><a href="#imc">IMC</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="header-content container">
+        <div class="header-info">
+          <h1>Sé fuerte</h1>
+          <p>Cada entrenamiento te hace más fuerte</p>
+          <a href="#contacto" class="btn-1">Empieza</a>
+        </div>
+      </div>
+    </header>
+
+    <section class="gym-container container reveal">
+      <div class="gym-1">
+        <h2><span>Gym</span> Funcional</h2>
+        <p>
+          Entrena con movimientos reales para ganar fuerza, resistencia y
+          movilidad. Sesiones guiadas y adaptadas a tu nivel.
+        </p>
+        <a href="#planes" class="btn-2">Ver planes</a>
+      </div>
+      <div class="gym-2">
+        <img class="img-1" src="Images/g1.jpg" alt="Entrenamiento funcional" loading="lazy" />
+        <img class="img-2" src="Images/g2.jpg" alt="Sala de entrenamiento" loading="lazy" />
+      </div>
+    </section>
+
+    <section class="gym-container container reveal">
+      <div class="gym-2">
+        <img class="img-1" src="Images/g3.jpg" alt="Zona de musculación" loading="lazy" />
+        <img class="img-2" src="Images/g4.jpg" alt="Pesas libres" loading="lazy" />
+      </div>
+      <div class="gym-1">
+        <h2><span>Sala</span> de pesas</h2>
+        <p>
+          Máquinas y peso libre para todos los grupos musculares, con
+          asesoramiento del equipo de entrenadores.
+        </p>
+      </div>
+    </section>
+
+    <section class="gym-container container reveal">
+      <div class="gym-1">
+        <h2><span>Clases</span> grupales</h2>
+        <p>
+          Yoga, HIIT y spinning en grupo. Más motivación, más constancia y
+          mejores resultados.
+        </p>
+        <a href="#horarios" class="btn-2">Ver horarios</a>
+      </div>
+      <div class="gym-2">
+        <img class="img-1" src="Images/g5.jpg" alt="Clase grupal" loading="lazy" />
+        <img class="img-2" src="Images/g6.jpg" alt="Clase de spinning" loading="lazy" />
+      </div>
+    </section>
+
+    <!-- Servicios -->
+    <section id="servicios" class="servicios reveal">
+      <div class="container">
+        <h2>Nuestros Servicios</h2>
+        <div class="servicios-grid">
+          <div class="servicio">
+            <h3>Entrenamiento Funcional</h3>
+            <p>Mejora tu fuerza, resistencia y movilidad.</p>
+          </div>
+          <div class="servicio">
+            <h3>Musculación</h3>
+            <p>Planes personalizados para ganar masa muscular.</p>
+          </div>
+          <div class="servicio">
+            <h3>Clases Grupales</h3>
+            <p>Yoga, HIIT, spinning y entrenamiento en equipo.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Planes -->
+    <section id="planes" class="planes reveal">
+      <div class="container">
+        <h2>Planes y Precios</h2>
+        <div class="planes-grid">
+          <div class="plan">
+            <h3>Básico</h3>
+            <p class="precio">19€/mes</p>
+            <p>Acceso a sala de musculación.</p>
+            <a href="#contacto" class="btn-2 btn-plan" data-plan="Básico">Elegir plan</a>
+          </div>
+          <div class="plan destacado">
+            <h3>Premium</h3>
+            <p class="precio">39€/mes</p>
+            <p>Acceso total + clases grupales.</p>
+            <a href="#contacto" class="btn-2 btn-plan" data-plan="Premium">Elegir plan</a>
+          </div>
+          <div class="plan">
+            <h3>Pro</h3>
+            <p class="precio">59€/mes</p>
+            <p>Entrenador personal incluido.</p>
+            <a href="#contacto" class="btn-2 btn-plan" data-plan="Pro">Elegir plan</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Horarios -->
+    <section id="horarios" class="horarios reveal">
+      <div class="container">
+        <h2>Horarios</h2>
+        <table>
+          <tr><th>Día</th><th>Horario</th></tr>
+          <tr><td>Lunes - Viernes</td><td>06:00 - 22:00</td></tr>
+          <tr><td>Sábados</td><td>08:00 - 18:00</td></tr>
+          <tr><td>Domingos</td><td>09:00 - 14:00</td></tr>
+        </table>
+      </div>
+    </section>
+
+    <!-- Testimonios -->
+    <section id="testimonios" class="testimonios reveal">
+      <div class="container">
+        <h2>Lo que dicen nuestros clientes</h2>
+        <div class="testimonios-grid">
+          <div class="testimonio">
+            <p>"Perdí 12 kg en 6 meses gracias al equipo del gimnasio."</p>
+            <h4>- Carlos M.</h4>
+          </div>
+          <div class="testimonio">
+            <p>"Las clases grupales son increíbles y muy motivadoras."</p>
+            <h4>- Laura G.</h4>
+          </div>
+          <div class="testimonio">
+            <p>"Instalaciones modernas y entrenadores atentos."</p>
+            <h4>- David R.</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Calculadora IMC -->
+    <section id="imc" class="imc reveal">
+      <div class="container">
+        <h2>Calcula tu IMC</h2>
+        <form id="imc-form" class="imc-form" novalidate>
+          <label for="peso">Peso (kg)</label>
+          <input type="number" id="peso" min="20" max="300" step="0.1" placeholder="70" required />
+          <label for="altura">Altura (cm)</label>
+          <input type="number" id="altura" min="100" max="250" step="1" placeholder="175" required />
+          <button type="submit" class="btn-2">Calcular</button>
+        </form>
+        <p id="imc-resultado" class="imc-resultado" role="status" aria-live="polite"></p>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="faq reveal">
+      <div class="container">
+        <h2>Preguntas frecuentes</h2>
+        <div class="faq-lista">
+          <details>
+            <summary>¿Hay permanencia?</summary>
+            <p>No. Puedes cancelar tu plan cuando quieras avisando con 7 días de antelación.</p>
+          </details>
+          <details>
+            <summary>¿Puedo probar antes de apuntarme?</summary>
+            <p>Sí. Escríbenos desde el formulario y te damos un pase de prueba.</p>
+          </details>
+          <details>
+            <summary>¿Las clases grupales tienen coste extra?</summary>
+            <p>Están incluidas en los planes Premium y Pro.</p>
+          </details>
+          <details>
+            <summary>¿Necesito experiencia previa?</summary>
+            <p>No. Adaptamos cada entrenamiento a tu nivel.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="contacto reveal">
+      <div class="container">
+        <h2>Contacto</h2>
+        <form name="contacto" method="POST" data-netlify="true" netlify-honeypot="bot-field" id="form-contacto">
+          <input type="hidden" name="form-name" value="contacto" />
+          <p class="oculto"><label>No rellenar: <input name="bot-field" /></label></p>
+          <input type="text" name="nombre" placeholder="Nombre" required />
+          <input type="email" name="email" placeholder="Correo electrónico" required />
+          <select name="plan" id="plan-select">
+            <option value="">Plan de interés (opcional)</option>
+            <option value="Básico">Básico - 19€/mes</option>
+            <option value="Premium">Premium - 39€/mes</option>
+            <option value="Pro">Pro - 59€/mes</option>
+          </select>
+          <textarea name="mensaje" placeholder="Escribe tu mensaje" required></textarea>
+          <button type="submit" class="btn-2">Enviar</button>
+        </form>
+
+        <div class="mapa">
+          <!-- TODO: sustituir src por el embed de la dirección real (Google Maps > Compartir > Insertar un mapa) -->
+          <iframe
+            title="Ubicación del gimnasio"
+            src="https://www.google.com/maps?q=Granada,+España&output=embed"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer container">
+      <div class="redes">
+        <!-- TODO: sustituir # por los perfiles reales -->
+        <a href="https://instagram.com/edvillamizar" target="_blank" rel="noopener" aria-label="Instagram">Instagram</a>
+        <a href="#" target="_blank" rel="noopener" aria-label="Facebook">Facebook</a>
+        <a href="#" target="_blank" rel="noopener" aria-label="TikTok">TikTok</a>
+        <a href="#" target="_blank" rel="noopener" aria-label="YouTube">YouTube</a>
+      </div>
+      <p>Proyecto de demostración, gimnasio ficticio</p>
+      <p>© 2026 GYM Fitness. Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- TODO: sustituir 34600000000 por el número real (prefijo país sin +) -->
+    <a
+      class="whatsapp"
+      href="https://wa.me/34678298031?text=Hola%2C%20quiero%20información%20sobre%20el%20gimnasio"
+      target="_blank"
+      rel="noopener"
+      aria-label="Escribir por WhatsApp"
+      >WhatsApp</a
+    >
+
+    <script src="script.js"></script>
+  </body>
+</html>
