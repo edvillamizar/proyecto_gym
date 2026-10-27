@@ -2,7 +2,7 @@
 
 Landing page responsive de un gimnasio **ficticio**, creada como proyecto de práctica de desarrollo web front end.
 
-🔗 **Demo:** https://app.netlify.com/teams/edwinvidi/projects
+🔗 **Demo:** https://proyecto-gym.pages.dev/
 
 ![Captura de GYM Fitness](Images/captura.png)
 
